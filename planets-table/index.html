@@ -16,21 +16,21 @@
                     Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
                 </caption>
                 <colgroup>
-                	<col>
-                	<col>
-                	<col>
-                	<col>
-                	<col>
-                	<col>
-                	<col>
-                	<col>
-                	<col>
-                	<col>
-                	<col>
-                	<col>
+                	<col span="2">
+                	<col id="Name">
+                	<col id="Mass (10<sup>24</sup>kg)">
+                	<col id="Diameter (km)">
+                	<col id="Density (kg/m<sup>3</sup>)">
+                	<col id="Gravity (m/s<sup>2</sup>)">
+                	<col id="Length of day (hours)">
+                	<col id="Distance from Sun (10<sup>6</sup>km)">
+                	<col id=" Mean temperature (°C)">
+                	<col id="Number of moons">
+                	<col id="Notes">
+                	<col id="image">
                 </colgroup>
                 <thead>
-                    <tr></tr>
+                    <tr>image</tr>
                 </thead>
                     <tbody>
                 	<tr>
@@ -94,9 +94,11 @@
                         <td><img src="mars.jpg"/></td>
                     </tr>
                     
-                    <th colspan="2">Jovian Planets</th>
+                    <th rowspan="4"
+                    colspan="2">Jovian Planets</th>
                     
-                    <th colspan="2">Gas Giants</th>
+                    <th rowspan="4"
+                    colspan="2">Gas Giants</th>
                   <tr>
                     <td>Jupiter</td>
                     <td>1898</td>
@@ -162,7 +164,8 @@
                     <td>5</td>
                     <td><img src="pluto.jpg"/></td>
                 </tr>
-                <caption>Declassified as a planet in 2006, but this <a href="http://www.usatoday.com/story/tech/2014/10/02/pluto-planet-solar-system/16578959/">remains controversial</a>.
+                <caption>
+                    Declassified as a planet in 2006, but this <a href="http://www.usatoday.com/story/tech/2014/10/02/pluto-planet-solar-system/16578959/">remains controversial</a>.
                 </caption>
             </tbody>
         </table>
