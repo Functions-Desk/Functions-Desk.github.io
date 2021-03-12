@@ -47,18 +47,35 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
-h1 {transform: rotate(5deg);}
+html {
+    font-size:16px;
+}
 
+h1 {
+    text-align: center;
+}
 font-face {
     font-family:serif;
     src: url(../fonts/sans-serif/montserrat-regular.ttf);
     font-style:normal;
     font-weight:normal;
-
- section{
-     float: left
- }
-
- aside{
-     float: right
- }
+    
+    ul {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 0rem;
+        margin-left: 0rem;
+    
+    }
+    
+    ol {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 0rem;
+        margin-left: 0rem;
+    
+    }
+    
+    .long-list a:hover {
+        text-transform: uppercase;
+    }
