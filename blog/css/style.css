@@ -79,3 +79,7 @@ font-face {
     .long-list a:hover {
         text-transform: uppercase;
     }
+
+    h2 {
+        float: left
+    }
